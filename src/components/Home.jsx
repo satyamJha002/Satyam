@@ -2,6 +2,7 @@ import React from "react";
 import heroImg from "../assets/heroImage.jpg";
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 import { Link } from "react-scroll";
+import TypeWriter from "./TypeWriter";
 
 const Home = () => {
   return (
@@ -12,7 +13,7 @@ const Home = () => {
       <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
         <div className="flex flex-col justify-center h-full">
           <h2 className="mt-20 md:mt-0 text-2xl sm:text-7xl font-bold text-white">
-            I'm a Front-End Developer
+            <TypeWriter text="I'm a Frontend Developer" delay={90} />
           </h2>
           <p className="text-gray-500 py-4 max-w-md">
             {" "}
