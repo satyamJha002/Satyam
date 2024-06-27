@@ -6,7 +6,7 @@ import github from "../assets/github.png";
 import tailwind from "../assets/tailwind.png";
 import git from "../assets/git.png";
 import mongo from "../assets/mongo.png";
-import boostrap from "../assets/bootstrap.png";
+import bootstrap from "../assets/bootstrap.png";
 import react from "../assets/react.png";
 
 const Skills = () => {
@@ -55,7 +55,7 @@ const Skills = () => {
     },
     {
       id: 8,
-      src: boostrap,
+      src: bootstrap,
       title: "BOOTSTRAP",
       style: "shadow-purple-500",
     },
@@ -70,6 +70,7 @@ const Skills = () => {
   return (
     <div
       name="skills"
+      id="skills"
       className="flex flex-col bg-gradient-to-b from-gray-800 to-black w-full h-full"
     >
       <div className=" max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white">

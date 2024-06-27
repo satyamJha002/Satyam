@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 
 const TypeWriter = ({ text, delay }) => {
-  const [currentText, setCurrentText] = useState("");
+  const [currentText, setCurrentText] = useState("I'm a ");
   const [currentIndex, setCurrentIndex] = useState(0);
 
   useEffect(() => {
