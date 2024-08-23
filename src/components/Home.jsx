@@ -1,5 +1,5 @@
 import React from "react";
-import heroImg from "../assets/heroImage.jpg";
+import heroImg from "../assets/heroImage.png";
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 import { Link } from "react-scroll";
 import TypeWriter from "./TypeWriter";
@@ -42,7 +42,7 @@ const Home = () => {
           <img
             src={heroImg}
             alt="my-profile"
-            className="rounded-full mx-auto w-1/2 md:w-60 "
+            className="rounded-full mx-auto w-1/2 md:w-100 "
           />
         </div>
       </div>

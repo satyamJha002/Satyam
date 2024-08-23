@@ -15,19 +15,24 @@ const About = () => {
         </div>
 
         <p className="text-xl md:text-md mt-10 md:mt-6">
-          I am Satyam Jha and I recently graduated from MCA from PSIT Kanpur, I
-          am a Passionate front-end developer dedicated to creating engaging and
-          intuitive user interfaces. With a strong foundation in HTML, CSS, and
-          JavaScript. .
+          I am Satyam Jha, a recent MCA graduate from PSIT Kanpur, and a
+          passionate front-end developer. I specialize in crafting engaging and
+          intuitive user interfaces, with a solid foundation in HTML, CSS, and
+          JavaScript.
         </p>
 
-        <br />
+        <p className="text-xl md:text-md mb-10 mt-10 md:mt-6">
+          I thrive on transforming design concepts into pixel-perfect,
+          responsive web experiences. By staying updated on the latest front-end
+          technologies and trends, I aim to leverage my skills to deliver
+          seamless user interactions and enhance overall usability.
+        </p>
 
         <p className="text-xl md:text-md mb-10 ">
           Collaborative by nature, I excel in multidisciplinary teams,
-          communicating effectively to bridge the gap between design and
-          development. Let's connect and collaborate on bringing innovative web
-          solutions to life.
+          effectively bridging the gap between design and development. Let’s
+          connect and collaborate on innovative web solutions that bring ideas
+          to life.
         </p>
       </div>
     </div>
