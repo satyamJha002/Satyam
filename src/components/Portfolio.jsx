@@ -17,7 +17,7 @@ const Portfolio = () => {
       id: 2,
       src: weather,
       name: "Weather",
-      demo: "https://next-js-weather-app-nine.vercel.app/",
+      demo: "https://next-js-weather-app-eta.vercel.app/",
       code: "https://github.com/satyamJha002/NextJS-Weather-App",
     },
     {
