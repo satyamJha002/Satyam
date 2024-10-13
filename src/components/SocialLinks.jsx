@@ -28,7 +28,13 @@ const SocialLinks = () => {
       id: 3,
       child: (
         <>
-          Mail <HiMail size={30} />
+          Mail{" "}
+          <HiMail
+            size={30}
+            onClick={() =>
+              (window.location = "mailto:jha.satyam0099@gmail.com")
+            }
+          />
         </>
       ),
       href: "mailto:jha.satyam0099@gmail.com",
@@ -40,7 +46,7 @@ const SocialLinks = () => {
           Contact <BsFillPersonLinesFill size={30} />
         </>
       ),
-      href: "https://drive.google.com/file/d/1Dj2yxlN7VAsINKYe0cJ8P0PboCKHGFnJ/view?usp=drive_link",
+      href: "https://drive.google.com/file/d/1-jvew4rucrDPT2XA_m4gd-SuhdcQtLuS/view?usp=sharing",
       style: "rounded-br-md",
       download: true,
     },
