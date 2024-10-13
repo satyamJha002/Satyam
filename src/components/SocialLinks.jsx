@@ -12,7 +12,7 @@ const SocialLinks = () => {
           Linkedin <FaLinkedin size={30} />
         </>
       ),
-      href: "https://www.linkedin.com/in/satyamjha073000/",
+      href: "https://www.linkedin.com/in/satyam-jha-9b97a6228/",
       style: "rounded-tr-md",
     },
     {
@@ -31,7 +31,7 @@ const SocialLinks = () => {
           Mail <HiMail size={30} />
         </>
       ),
-      href: "mailto:satyam073000@gmail.com",
+      href: "mailto:jha.satyam0099@gmail.com",
     },
     {
       id: 4,
@@ -40,7 +40,7 @@ const SocialLinks = () => {
           Contact <BsFillPersonLinesFill size={30} />
         </>
       ),
-      href: "/resume.pdf",
+      href: "https://drive.google.com/file/d/1Dj2yxlN7VAsINKYe0cJ8P0PboCKHGFnJ/view?usp=drive_link",
       style: "rounded-br-md",
       download: true,
     },
