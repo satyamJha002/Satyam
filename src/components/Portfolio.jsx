@@ -1,7 +1,7 @@
 import React from "react";
 import houseMarketPlace from "../assets/portfolio/house-market-sale-and-rent.vercel.app_.png";
 import weather from "../assets/portfolio/next-js-weather-app-nine.vercel.app_.png";
-import contactFormValidation from "../assets/portfolio/contact-form-valid-007.netlify.app_.png";
+import contactFormValidation from "../assets/portfolio/contact-form.jpg";
 import faqAccordian from "../assets/portfolio/faq-accordian-main.netlify.app_.png";
 
 const Portfolio = () => {
@@ -24,8 +24,7 @@ const Portfolio = () => {
       id: 3,
       src: contactFormValidation,
       name: "Contact Form Validation",
-      demo: "https://contact-form-valid-007.netlify.app/?message=",
-      code: "https://github.com/satyamJha002/html-css-practice-projects/tree/master/contact-form-main",
+      code: "https://github.com/satyamJha002/contact-form-MERN-stack",
     },
     {
       id: 4,
