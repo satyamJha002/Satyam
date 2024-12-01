@@ -42,7 +42,7 @@ const Home = () => {
           <img
             src={heroImg}
             alt="my-profile"
-            className="rounded-full mx-auto w-1/2 md:w-100 "
+            className="animate-wiggle rounded-full mx-auto w-1/2 md:w-100 "
           />
         </div>
       </div>
