@@ -2,8 +2,7 @@ import React from "react";
 import houseMarketPlace from "../assets/portfolio/house-market-sale-and-rent.vercel.app_.png";
 import weather from "../assets/portfolio/next-js-weather-app-nine.vercel.app_.png";
 import contactFormValidation from "../assets/portfolio/contact-form.jpg";
-import faqAccordian from "../assets/portfolio/faq-accordian-main.netlify.app_.png";
-
+import lms from "../assets/portfolio/learning-management-system-delta-seven.vercel.app_.png";
 const Portfolio = () => {
   const portfolios = [
     {
@@ -28,10 +27,10 @@ const Portfolio = () => {
     },
     {
       id: 4,
-      src: faqAccordian,
-      name: "Accordian",
-      demo: "https://faq-accordian-main.netlify.app/",
-      code: "https://github.com/satyamJha002/html-css-practice-projects/tree/master/faq-accordion-main",
+      src: lms,
+      name: "Learning Management System",
+      demo: "https://learning-management-system-delta-seven.vercel.app/",
+      code: "https://github.com/satyamJha002/Learning-Management-System",
     },
   ];
 
